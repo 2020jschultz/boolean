@@ -15,12 +15,12 @@ let positiveX = (x > 0);
 let negativeX = (x < 0);
 
 //using all 3 variables
-let allPositive (x, y, z);
-let allNegative !(x, y, z);
+let allPositive = (x && y && z);
+let allNegative = !(x && y && z);
 
 //using all 3 variables
-let atLeastOnePositive;
-let atLeastOneNegative;
+let atLeastOnePositive = (x>0 || y>0 || z>0);
+let atLeastOneNegative = !(x>0 || y>0 || z>0) ;
 
 
 /*
